@@ -3,7 +3,7 @@
 "  | | |____| ____| ___ < ____| __  / |__ \
 " /___\_____|_____|_____/_____|_| \_\_____/
 "
-" File:       iceberg.vim
+" File:       yasuoberg.vim
 " Maintainer: cocopon <cocopon@me.com>
 " Modified:   2020-12-25 11:57+0900
 " License:    MIT
@@ -18,7 +18,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'iceberg'
+let g:colors_name = 'yasuoberg'
 
 if &background == 'light'
   hi Normal ctermbg=254 ctermfg=237 guibg=#e8e9ec guifg=#33374c
@@ -113,7 +113,7 @@ if &background == 'light'
   hi SyntasticStyleWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi SyntasticWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi ZenSpace ctermbg=125 guibg=#cc517a
-  hi icebergALAccentRed ctermfg=125 guifg=#cc517a
+  hi yasuobergALAccentRed ctermfg=125 guifg=#cc517a
 
   if has('nvim')
     let g:terminal_color_0 = '#dcdfe7'
@@ -228,7 +228,7 @@ else
   hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi SyntasticWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi ZenSpace ctermbg=203 guibg=#e27878
-  hi icebergALAccentRed ctermfg=203 guifg=#e27878
+  hi yasuobergALAccentRed ctermfg=203 guifg=#e27878
 
   if has('nvim')
     let g:terminal_color_0 = '#1e2132'

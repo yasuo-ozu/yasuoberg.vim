@@ -1,4 +1,4 @@
-function! iceberg#palette#dark#create() abort
+function! yasuoberg#palette#dark#create() abort
   let hue_base = 230
 
   let hue_red = 0

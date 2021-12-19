@@ -1,4 +1,4 @@
-<!-- Thank you for using Iceberg! -->
+<!-- Thank you for using Yasuoberg! -->
 <!-- Make sure your environment before submitting a issue. -->
 Environment:
 - OS
